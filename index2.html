@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        margin: auto;
+        margin-top: 100px;
+        width: 500px;
+        height: 350px;
+        border: 5px solid black;
+        padding: 20px;
+    }
+
+    .top {
+        width: 100%;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 23px;
+        border-radius: 20px;
+        border: 5px solid red;
+    }
+
+    nav {
+        margin-top: 10px;
+        width: 100%;
+        background-color: orange;
+        padding: 10px 10px;
+        font-size: 12px;
+
+    }
+
+    ul {
+        display: flex;
+
+        gap: 5px;
+    }
+
+    li {
+        list-style: none;
+        color: white;
+    }
+
+    .input1 {
+        margin-top: 10px;
+       
+
+    }
+
+    .input2 {
+        margin-left: 78px;
+        margin-top: 10px;
+    }
+
+    input[type='text'] {
+        width: 83%;
+    }
+
+    input[type='password'] {
+        width: 82.5%;
+    }
+    .btn{
+        margin-top: 10px;
+        margin-left: 130px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    button{
+        padding: 8px 40px;
+        background-color: rgb(90, 2, 153);
+        border: none;
+        border-radius: 5px ;
+        color: white;
+    }
+</style>
+
+<body>
+    <main>
+        <form action="">
+            <div class="top">
+                <h1>Cascading Style Sheet</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>Home | </li>
+                    <li>Tutorail | </li>
+                    <li>Reference | </li>
+                    <li>Exercise | </li>
+                    <li>Certificates</li>
+                </ul>
+            </nav>
+            <div class="input1">
+                <label for="">Full Name: </label>
+                <input type="text"> <br>
+            </div>
+            <div class="input1">
+                <label for="">Gender: </label> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" value="male" id="">
+                <label for="">Male</label>&nbsp;&nbsp;
+                <input type="radio" name="gender" value="female" id="">
+                <label for="">Female</label>
+            </div>
+            <div class="input1">
+                <label for="">Password: </label> &nbsp;
+                <input type="password"> <br>
+            </div>
+            <div class="input2">
+                <input type="checkbox">
+                <label for=""> Remember Me </label>
+            </div>
+            <div class="btn">
+                <button>Submit</button>
+                <button>Reset</button>
+
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
